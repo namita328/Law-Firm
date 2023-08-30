@@ -1,0 +1,67 @@
+.section {
+  background-color: #1d1d1d;
+  font-size: 25px;
+  color: var(--color-white);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  padding: 5% 5% 5% 5%;
+  width: 100%;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 2%;
+}
+.cardWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: var(--color-black);
+  /* border: 2px solid var(--color-white); */
+  border-radius: 4%;
+  width: 359px;
+  height: 377px;
+  top: 1615px;
+  left: 146px;
+  padding: 2%;
+  margin-top: 10px;
+}
+.wrapper {
+  display: flex;
+  gap: 30px;
+}
+.circleFOrGift {
+  padding: 4%;
+  background-color: var(--color-black);
+  border-radius: 50%;
+}
+.giftIcon * {
+  fill: var(--color-white);
+}
+.card:nth-child(2) {
+  background-color: var(--color-white);
+  filter: brightness(100%);
+}
+
+.content {
+  opacity: 30%;
+  font-size: 1rem;
+}
+
+.readMore {
+  width: 50%;
+  height: 10%;
+  background-color: #e3b748;
+  border: 1px solid var(--color-opacity);
+  color: var(--color-dark);
+  padding: auto;
+  border-radius: 43px;
+  font-size: small;
+  font-weight: 600;
+}

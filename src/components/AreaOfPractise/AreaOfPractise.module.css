@@ -1,0 +1,28 @@
+.wrapper {
+  background-color: #1d1d1d;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5% 5% 5% 5%;
+  width: 100%;
+  color: var(--color-white);
+}
+
+.mainHeading {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.SecondWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 4%;
+}
+
+.imageRowWrapper {
+  display: flex;
+  justify-content: center;
+  gap: 3%;
+}

@@ -1,0 +1,67 @@
+.main {
+  background-color: var(--color-dark1);
+  padding: 20vh 0;
+  padding-top: 10vh;
+  color: var(--color-white);
+}
+
+.wrapper {
+  background-color: #1d1d1d;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5% 5% 5% 5%;
+  width: 80%;
+  margin: auto auto;
+  /* opacity: 60%; */
+}
+
+.mainHeading {
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.secondWrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 2%;
+  width: 50%;
+}
+
+.secondWrapper * {
+  padding-left: 16px;
+  font-style: italic;
+  width: 276px;
+  height: 53px;
+  border-radius: 0.5rem;
+  border-top-right-radius: 0rem;
+  border-bottom-right-radius: 0rem;
+  border: 1px solid var(--color-black);
+  align-items: center;
+  padding-left: 1rem;
+}
+
+.seconfWrapper *:focus {
+  outline: none;
+  border: 2px solid var(--color-black);
+}
+
+.seconfWrapper input:nth-child(2) {
+  border-top-left-radius: 0rem;
+  border-bottom-left-radius: 0rem;
+}
+
+.sendButton {
+  background-color: #e3b748;
+  border: 1px solid var(--color-black);
+  color: var(--color-white);
+  width: 116px;
+  height: 53px;
+  border-radius: 0px 8px 8px 0px;
+  font-size: medium;
+  font-weight: 700;
+  text-align: center;
+  padding: auto auto;
+}
